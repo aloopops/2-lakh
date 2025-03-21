@@ -4,7 +4,7 @@
     {
       "src": "app.py",
       "use": "@vercel/python",
-      "config": { "runtime": "3.10" }
+      "config": { "runtime": "3.11" }
     }
   ],
   "routes": [
@@ -14,6 +14,6 @@
     }
   ],
   "env": {
-    "PYTHON_VERSION": "3.10"
+    "PYTHON_VERSION": "3.11"
   }
 }
