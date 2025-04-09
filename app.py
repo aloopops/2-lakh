@@ -79,7 +79,7 @@ def get_models():
         # You can customize this list based on what g4f supports
         models = [{
             "id": "gpt-4o-mini",
-            "name": "GPT-4"
+            "name": "GPT-4o"
         }]
         return jsonify({'status': 'success', 'models': models})
     except Exception as e:
